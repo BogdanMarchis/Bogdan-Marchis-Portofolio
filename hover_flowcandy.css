@@ -13,6 +13,7 @@
 
 }
 
+
 .flowcandy_overlay>* {
   transform: translateY(12px);
   transition: transform 0.25s;
@@ -127,4 +128,30 @@
   text-align: center;
   margin-top:10px;
   margin-bottom:20px;
+}
+
+.flowcandy {
+  display:block;
+}
+
+.flowcandy-mobile {
+  display:none;
+}
+
+@media (max-width: 768px) {
+  .flowcandy {
+    display:none;
+  }
+  .flowcandy-mobile {
+      display:block;
+  }
+
+  h1 {
+    font-size: 12vw!important;
+  }
+}
+
+.flowcandy-mobile > img {
+  margin:auto;
+  max-width: 70vw;
 }

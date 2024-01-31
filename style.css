@@ -119,13 +119,19 @@ ul.menu li .sub-menu li a {
     ul.menu li:hover>.sub-menu {
         display: block;
     }
+
 }
 
 
+.navbar_text{
+    font-family: 'Poiret One';
+     color: #9966ff;
+      font-weight: bold;
+}
+
 .hover-underline-animation {
     display: inline-block;
-    position: relative;
-    color: #0087ca;
+    position: relative
 }
 
 .hover-underline-animation::after {
@@ -163,17 +169,15 @@ ul.menu li .sub-menu li a {
     bottom: 0;
     left: 0;
     right: 0;
-    background-size: 1920px;
+    background-size: 1920px;  
 }
 
 .avatar img {
     width: 297px;
     height: auto;
     margin-bottom: 200px;
-    /* position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%); */
+    position: relative;
+    justify-content: center;
 }
 
 .test {
@@ -219,7 +223,6 @@ html {
 .header-navbar {
     position: absolute;
     padding: 30px 0;
-    /* z-index: 999; */
     right: 0;
     left: 0;
     top: 0;
@@ -240,6 +243,7 @@ body {
     padding-left: 5vw;
     padding-right: 5vw;
 }
+
 
 /* Footer */
 .footer {
@@ -502,4 +506,24 @@ a {
 .linkHover {
     color: #6E07F3;
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .first_image_div {
+        background-image: url(background_image/v882-kul-55.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-size:cover;  
+    }
+    .center_text {
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Poiret One';
+        padding-top: 50px;
+        margin-bottom:70px;
+    }
 }

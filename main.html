@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
@@ -30,13 +29,12 @@
                 </div>
                 <div class="header-menu">
                     <ul class="menu">
-                        <!-- <li><a class="hover-underline-animation" href="#">HOME</a></li>
-                        <li><a class="hover-underline-animation" href="#about">ABOUT</a></li>
-                        <li><a class="hover-underline-animation" href="#">SERVICES</a>
-                        </li>
-                        <li><a class="hover-underline-animation" href="#">PORTOFOLIO</a></li> -->
-                        <li><a style="font-family: 'Poiret One'; color: #9966ff; font-weight: bold;"
-                                class="hover-underline-animation" href="contact_me.html">Start a conversation</a></li>
+                     
+                         <!-- <li><a class="hover-underline-animation" href="#about">About</a></li> 
+                        <li><a class="hover-underline-animation" href="#skills">Skills</a> </li>
+                        <li><a class="hover-underline-animation" href="#work_history">Work history</a></li>
+                        <li><a class="hover-underline-animation" href="#projects">Projects</a></li>   -->
+                        <li><a style="font-family: 'Poiret One'; color: #9966ff; font-weight: bold;" class="hover-underline-animation" href="contact_me.html">Start a conversation</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,31 +46,32 @@
     <div class="page-content">
         <div class="first_image_div">
             <div class="center_text">
-                <h1><span style="color:#9966ff ;font-weight: bold;">Frontend Developer</span><br> <span
+                <h1 style="padding-top:20px;"><span style="color:#9966ff ;font-weight: bold;">Frontend Developer</span><br> <span
                         style="font-size:27px; color:white"> I design and code beautifully simple things, and I love
                         what I do.</span>
                 </h1>
-
                 <div class="avatar"><img src="avatar/bogdan avatar.png"> </div>
-                <div class="test">
-                    <div id="about">
-                        <p><span style="font-weight: bold; font-size:40px;">Hi, I’m Bogdan. Nice to meet
-                                you.</span><br><br>
-                            Since beginning my journey as a freelance programmer over 1 year already, I've done remote
-                            work
-                            for
-                            agencies, consulted for startups, and collaborated
-                            with talented people to create digital
-                            products for both business and consumer use. I'm quietly confident, naturally curious, and
-                            perpetually working on improving my chops one design problem at a time.</p>
-                        </div>
-                </div>
+                
             </div>
+        </div>
+        <div class="test">
+            <div id="about">
+                <p><span style="font-weight: bold; font-size:40px;">Hi, I’m Bogdan. Nice to meet
+                        you.</span><br><br>
+                    Since beginning my journey as a freelance programmer over 1 year already, I've done remote
+                    work
+                    for
+                    agencies, consulted for startups, and collaborated
+                    with talented people to create digital
+                    products for both business and consumer use. I'm quietly confident, naturally curious, and
+                    perpetually working on improving my chops one design problem at a time.</p>
+                </div>
+        </div>
 
 
             <div class="container">
 
-                <h1 class="heading"> My skills </h1>
+                <h1 class="heading" id="skills"> My skills </h1>
                 <div class="box-container">
                     <div class="box"><img src="box-images/icon-1.png">
                         <h3>HTML 5</h3>
@@ -111,7 +110,7 @@
             </div>
 
 
-            <h1 style="font-weight: bold; font-size:60px; color:#9966ff" class="center_text"> Work history</h1>
+            <h1 id="work_history" style="font-weight: bold; font-size:60px; color:#9966ff" class="center_text"> Work history</h1>
 
             <div class="flowcandy">
                 <img class="flowcandy_img" src="background_image/flowcandy_image.png">
@@ -141,8 +140,36 @@
                     </p>
                 </div>
             </div>
+            <div class="flowcandy-mobile">
+                <img class="flowcandy_img" src="background_image/flowcandy_image.png">
+                <div style="margin: auto;">
 
-            <h1 style="font-weight: bold; font-size:60px; color:#9966ff; padding-top:60px;" class="center_text"> My recent work</h1>
+                    <div class="image__title" style="margin-top:30px;">Since September 2022, I've been contributing my
+                        expertise to Flowcandy, where I hold the role of Email Marketing Developer.
+                        This position has allowed me to harness my proficiency in HTML and CSS
+                        to craft engaging marketing emails on platforms like Klaviyo and Shopify.</div>
+
+                    <p class="image__description" style="margin:auto;">
+                        <a style="text-decoration: none;" target="_blank"
+                            href="https://docs.google.com/document/d/1yk_QzkONMzcekKwkNgwPws0zbdUCcjQwD_7wjzPiJaY/edit"><button
+                                class="cssbuttons-io-button" style="margin:20px auto auto auto;">
+                                See recomandation letter
+                                <div class="icon">
+                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                            </button></a>
+
+
+                    </p>
+                </div>
+            </div>
+
+            <h1 id="projects" style="font-weight: bold; font-size:60px; color:#9966ff; padding-top:40px;" class="center_text"> My recent work</h1>
 
             <div class="flowcandy">
                 <img class="flowcandy_img" src="box-images/0_N1fmHtI8gmkH_2Vu.png">
@@ -154,6 +181,32 @@
                         <a style="text-decoration: none;" target="_blank"
                             href="https://github.com/BogdanMarchis"><button
                                 class="cssbuttons-io-button">
+                                Check out my GitHub portofolio
+                                <div class="icon">
+                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                            </button></a>
+
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="flowcandy-mobile">
+                <img class="flowcandy_img" src="box-images/0_N1fmHtI8gmkH_2Vu.png">
+                <div style="margin: auto;">
+
+                    <div class="image__title_github">Here you can check some of my projects uploaded on my GitHub account</div>
+
+                    <p class="image__description" style="margin: auto;">
+                        <a style="text-decoration: none;" target="_blank"
+                            href="https://github.com/BogdanMarchis"><button
+                                class="cssbuttons-io-button" style="margin: auto;">
                                 Check out my GitHub portofolio
                                 <div class="icon">
                                     <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -192,9 +245,7 @@
                     <span>Start a conversation</span></a>
 
             </div>
-        </div>
-
-
+       
 
         <div class="footer">
             <div class="footer-content">
