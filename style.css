@@ -537,6 +537,14 @@ a {
         font-size: 5vw!important;
     }
 
+    .avatar img {
+        width: 250px;
+        height: auto;
+        margin-bottom: 125px;
+        position: relative;
+        justify-content: center;
+    }
+
 }
 
 .headline_text{
