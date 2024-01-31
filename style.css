@@ -192,7 +192,7 @@ ul.menu li .sub-menu li a {
     text-align: center;
     font-size: 25px;
     font-family: 'Poiret One';
-    width: 70%;
+    width: 65%;
     position: relative;
     margin: auto;
 }
@@ -543,6 +543,16 @@ a {
         margin-bottom: 25px;
         position: relative;
         justify-content: center;
+    }
+
+    #about {
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Poiret One';
+        width: 90%;
+        position: relative;
+        margin: auto;
     }
 
 }
