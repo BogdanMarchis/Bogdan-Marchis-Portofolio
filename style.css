@@ -163,11 +163,11 @@ ul.menu li .sub-menu li a {
     bottom: 0;
     left: 0;
     right: 0;
-    background-size: 100%;
+    background-size: 1920px;
 }
 
 .avatar img {
-    width: 18%;
+    width: 297px;
     height: auto;
     margin-bottom: 200px;
     /* position: absolute;
@@ -177,18 +177,25 @@ ul.menu li .sub-menu li a {
 }
 
 .test {
-    padding: 65px 400px 150px;
+    padding: 65px 0px 150px;
     background-color: #9966ff;
+    position: relative;
+    justify-content: center;
+    
+}
+#about {
     color: white;
     text-align: center;
     font-size: 25px;
     font-family: 'Poiret One';
+    width: 65%;
+    position: relative;
+    margin: auto;
 }
 
 html {
     scroll-behavior: smooth;
 }
-
 
 /* Create four equal columns that floats next to each other */
 .column {
@@ -207,19 +214,6 @@ html {
     clear: both;
 }
 
-/* asd */
-/*.header-div {
-    padding-left: 5vw;
-    padding-right: 5vw;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    margin-top: 30px;
-	z-index: 999;
-}
-.header-logo {
-    max-width: 200px;
-}*/
 
 /* Header */
 .header-navbar {
@@ -418,8 +412,8 @@ a,
 .textarea,
 .input,
 .button {
-    -moz-appearance: none;
-    -webkit-appearance: none;
+    /* -moz-appearance: none;
+    -webkit-appearance: none; */
     align-items: center;
     border: 1px solid transparent;
     border-radius: 4px;
