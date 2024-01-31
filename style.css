@@ -540,7 +540,7 @@ a {
     .avatar img {
         width: 250px;
         height: auto;
-        margin-bottom: 125px;
+        margin-bottom: 25px;
         position: relative;
         justify-content: center;
     }
