@@ -517,13 +517,34 @@ a {
         bottom: 0;
         left: 0;
         right: 0;
-        background-size:cover;  
+        background-size:1920px;  
     }
     .center_text {
         text-align: center;
         font-size: 25px;
         font-family: 'Poiret One';
-        padding-top: 50px;
-        margin-bottom:70px;
+        padding-top: 50px; 
     }
+   
+    .headline_text{
+        margin-top:200px;
+        color:#9966ff ;
+        font-weight: bold;
+        
+    }
+
+    .headline_text_description{
+        font-size: 5vw!important;
+    }
+
+}
+
+.headline_text{
+    padding-top:20px;
+    color:#9966ff ;
+    font-weight: bold;
+}
+.headline_text_description{
+    font-size:27px;
+     color:white
 }
