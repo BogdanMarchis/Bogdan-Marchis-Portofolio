@@ -540,7 +540,7 @@ a {
     .avatar img {
         width: 250px;
         height: auto;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
         position: relative;
         justify-content: center;
     }
@@ -550,7 +550,7 @@ a {
         text-align: center;
         font-size: 25px;
         font-family: 'Poiret One';
-        width: 90%;
+        width: 100%;
         position: relative;
         margin: auto;
     }
